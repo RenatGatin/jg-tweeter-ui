@@ -14,7 +14,6 @@
         color: yellow;
         transform: scale(1.05);
       }
-
     }
 
     #write-tweet {
@@ -30,10 +29,8 @@
   }
 
   #write-tweet i {
-
     animation: MoveUpDown 1s linear infinite;
     position: relative;
-
   }
 
   @keyframes MoveUpDown {

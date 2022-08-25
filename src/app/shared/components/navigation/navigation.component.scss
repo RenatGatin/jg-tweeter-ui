@@ -1,10 +1,11 @@
-:host {
+@import "src/styles/colors";
 
+:host {
   .navbar {
-    background-color: #99c435;
+    background-color: $yellow-green-green;
     height: 120px;
-    box-shadow: 2px 2px 10px #397207;
-    text-shadow: 2px 2px 3px #307207;
+    box-shadow: 2px 2px 10px green;
+    text-shadow: 2px 2px 3px green;
     z-index: 100;
 
     #logo {
